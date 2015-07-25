@@ -1,6 +1,6 @@
 require 'bundler'
 Bundler.require()
 
-def '/' do
+get '/' do
   erb :index  # call index.erb / home page
 end
