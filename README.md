@@ -1,13 +1,36 @@
 # Static_HTML_Server_Wk4
 Static Server framework built with Sinatra
+## Lego Construction Inc. website ####
 
-<h3> Gems
+### *Pages*
+
+Home Page: [link] ("http://localhost:9292/")
+
+About Page: [link] ("http://localhost:9292/about")
+
+Services Page: [link] ("http://localhost:9292/services")
+
+### Gems
 *  Json & Sinatra
 
-<h3> Views
+### Views
 * index.erb
 * about.erb
 * services.erb
 
-<h3> CSS
-<p> styes/styles.css
+### CSS
+`styes/styles.css`
+
+### Navigation
+```html
+<nav>
+  <ul>
+    <li><a href="index.html" class="selected">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+
+```
+### Issue
+`layout.erb  NOT 'layer.erb'`
