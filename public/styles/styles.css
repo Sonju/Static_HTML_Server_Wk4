@@ -53,6 +53,9 @@ nav {
       color: white;
       text-decoration: none; }
 
+a:active {
+  color: #ab8443; }
+
 .footer {
   margin-left: 20px; }
 
