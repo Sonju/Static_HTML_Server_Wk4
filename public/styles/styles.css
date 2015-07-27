@@ -49,12 +49,11 @@ nav {
     display: inline;
     padding: 8px;
     letter-spacing: 0.2rem; }
-    nav ul li a {
-      color: white;
-      text-decoration: none; }
-
-a:active {
-  color: #ab8443; }
+    nav ul li .active {
+      color: #ab8443; }
+      nav ul li .active a {
+        color: white;
+        text-decoration: none; }
 
 .footer {
   margin-left: 20px; }

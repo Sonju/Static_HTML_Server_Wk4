@@ -42,18 +42,20 @@ nav {
       display: inline;
       padding: 8px;
       letter-spacing: 0.2rem;
+
+      .active{
+        color: $third-color;
+
         a {
           color: $sec-color;
           text-decoration: none;
 
+          }
         }
     }
   }
 }
 
-a:active {
-  color: $third-color;
-}
 
 .footer {
   margin-left: 20px;
