@@ -50,10 +50,10 @@ nav {
     padding: 8px;
     letter-spacing: 0.2rem; }
     nav ul li .active {
-      color: #ab8443; }
+      color: white;
+      text-decoration: none; }
       nav ul li .active a {
-        color: white;
-        text-decoration: none; }
+        color: white; }
 
 .footer {
   margin-left: 20px; }
